@@ -1,0 +1,28 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    display: flex;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    animation: pulse 1s infinite;
+}
+
+
+/* Keyframes: pulse */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
